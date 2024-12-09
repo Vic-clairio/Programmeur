@@ -1,0 +1,185 @@
+*{
+    margin: 0px; /*espace exteririeur*/
+    padding: 0px; /* Espace intérieur */
+    box-sizing: border-box;
+    font-family: Arial, "Times New Roman", Times, sans-serif
+
+}
+ body{
+    background-color: #EAE2D2
+ }
+
+
+ .home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh
+ }
+
+ form{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px
+ }
+
+ h4{
+    text-align: center;
+    font-size: 20px
+ }
+
+hr{
+    margin: 10px 0;
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    width: 100%;
+}
+
+.champ-de-nom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+.champ-de-nom div{
+    display: flex;
+    flex-direction: column;
+    width: 49%
+}
+label {
+    margin-bottom: 6px;
+}
+
+input {
+    margin-bottom: 5px;
+    padding: 5px;
+    outline: 0;
+    border: 1px solid 
+}
+
+input:focus{
+    border: 1px solid #17a2b8;
+}
+input[type="submit"]{
+    margin-top: 15px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid  #17a2b8;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+p{
+    text-align: center;
+    margin: 5px 0;
+    font-size: 14px
+}
+
+p a {
+    text-decoration: 0;
+    color: #17a2b8
+}
+
+p a:hover {
+    text-decoration: underline;
+    color: red
+}
+
+
+/*header index  */
+ul {
+    list-style-type: none;
+    text-align: center
+
+}
+
+ul li{ 
+    margin: 0 auto;
+    border-left: 2px solid;
+    display: inline-flex;
+    padding: 0 10px;
+    position: relative;
+    text-decoration: none;
+    font-family: arvo;
+    margin-left: 40px;
+     
+}
+
+
+
+.accueil{
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px;
+}
+
+
+.accueil:hover{
+
+    background-color: white;
+    color: rgb(231, 14, 14);
+    border-radius: 12px
+}
+nav{
+    background-color: blue;
+    padding: 2px;
+    position: relative;
+    
+
+}
+
+.header_buttons {
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px;
+}
+
+.header_buttons:hover{
+    background-color: white;
+    color: rgb(7, 127, 67); 
+    border-radius: 12px
+}
+
+/*header index  */
+
+
+/* footer index*/
+footer {
+    clear: both;
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin-top: 200px;
+}
+/* footer index*/
+
+
+/* Properties */
+@media screen and (max-width: 480px) {
+    /* header */
+
+header{
+    padding: 10% 3; 
+    width: 100%; 
+    margin-bottom: 5% 
+}
+
+nav{
+    background-color: green
+  
+}
+ul li{ 
+    font-size: 10px;
+    margin: 10 0px;
+    margin-left: 5px;
+}
+nav ul img {
+    width: 30px;
+    height: auto
+}
+
+}

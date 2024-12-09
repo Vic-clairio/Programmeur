@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, "Times New Roman", Times, sans-serif
+
+}
+body {
+    background-color:#EAE2D2;
+
+  }
+/* header */
+ul {
+    list-style-type: none;
+    text-align: left;
+
+}
+
+ul li{ 
+    margin: 0 auto;
+    border-left: 2px solid; /* barre de separation entre les elements*/
+    display: inline-flex;
+    padding: 0 10px;
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+
+
+.accueil{
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px;
+}
+
+.accueil:hover{
+
+    background-color: white;
+    color: rgb(231, 14, 14);
+    border-radius: 12px
+}
+nav{
+    background-color: blue;
+    padding: 2px;
+    position: relative;
+
+}
+
+.header_buttons {
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px;
+}
+
+.header_buttons:hover{
+    background-color: white;
+    color: rgb(7, 127, 67); 
+    border-radius: 12px
+}
+
+/* header */
+
+/* home */
+.home {
+    margin: 50px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .home_left {
+       width: 40%;
+    
+    }
+ 
+    .home_right img {
+    
+      width: 700px;
+      height: 350px;
+      
+     }
+
+     
+p {
+    color: rgb(97,96,96);
+    margin: 20px 0;
+    letter-spacing: 2px;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.container {
+    display: flex;
+    gap: 20px; /* Espacement entre les images */
+    text-align: center;
+    justify-content: center;
+
+}
+
+.container iframe {
+    width: 300px; 
+    height: auto; /* Garde les proportions */
+    border: 2px solid #ccc;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+
+h2 {
+    text-align: center;
+}
+
+#youtube{
+    width:560; 
+    height:315; 
+}
+/* home */
+
+/* footer */
+footer {
+    clear: both;
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin-top: 50px;
+}
+/* footer */
+
+
+/* Properties */
+@media screen and (max-width: 480px) {
+    /* header */
+
+header{
+    padding: 10% 3; 
+    width: 100%; 
+    margin-bottom: 5% 
+}
+
+nav{
+    background-color: green
+  
+}
+ul li{ 
+    font-size: 10px;
+    margin: 10 0px;
+    margin-left: 5px;
+}
+nav ul img {
+    width: 30px;
+    height: auto
+}
+
+
+.home {
+    width: 60%;
+   margin-top: 25px;
+   margin-left: 100px;
+    
+    }
+.home_right img {
+    
+        width: 200px;
+        height: 150px;
+        padding: 3px;
+        position: relative;
+        margin-left: 100px;
+        
+       }
+
+  .home_left{
+    width:50%;
+    background-color: aqua;
+  }   
+  
+p{
+    font-size: 10px;
+}
+h1{
+    font-size: 15px;
+}
+
+h2{
+    font-size: 15px;  
+}
+.container{
+
+    width: 100%;
+}
+.container iframe{
+    width: 100%;
+}
+}

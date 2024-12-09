@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, "Times New Roman", Times, sans-serif
+
+}
+
+body{
+    background-color: #EAE2D2;
+}
+
+.container{
+    width: 80%;
+    max-width: 600%;
+    margin:50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);    
+   }
+
+   .container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color:#333 
+   }
+
+   form input, form textarea{
+    display:block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: #333
+   }
+
+   form input:focus, form textarea:focus{
+    outline: none;
+    box-shadow: 0 0 5px #333;
+   }
+
+   form button{
+    display:block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+   }
+   form button:hover{
+    background-color: #555;
+    
+   }
+
+   p{
+    text-align: center;
+
+   }
+
+/*header index  */
+ul {
+    list-style-type: none;
+    text-align: center
+
+}
+
+ul li{ 
+    margin: 0 auto;
+    border-left: 2px solid;
+    display: inline-flex;
+    padding: 0 10px;
+    position: relative;
+    text-decoration: none;
+    font-family: arvo;
+    margin-left: 40px;
+     
+}
+
+
+.header_logo{
+    float:left;
+    color: orange;
+}
+
+
+.accueil{
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px;
+    ;
+}
+
+
+.accueil:hover{
+
+    background-color: white;
+    color: rgb(231, 14, 14);
+    border-radius: 12px
+}
+nav{
+    background-color: blue;
+    padding: 2px;
+    position: relative;
+
+}
+
+.header_buttons {
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px;
+}
+
+.header_buttons:hover{
+    background-color: white;
+    color: rgb(7, 127, 67); 
+    border-radius: 12px
+}
+
+/*header index  */
+
+/* footer */
+footer {
+    clear: both;
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin-top: 200px;
+}
+/* footer */
+
+
+/* Properties */
+@media screen and (max-width: 480px) {
+    /* header */
+
+header{
+    padding: 10% 3; 
+    width: 100%; 
+    margin-bottom: 5% 
+}
+
+nav{
+    background-color: green
+  
+}
+ul li{ 
+    font-size: 10px;
+    margin: 10 0px;
+    margin-left: 5px;
+}
+nav ul img {
+    width: 30px;
+    height: auto
+}
+
+}
